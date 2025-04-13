@@ -1,0 +1,22 @@
+bot:
+  TOKEN: "24678154356:GF7G8DFGD8787766g68h67Ghght7687"
+
+redis:
+  HOST: hostname
+  PORT: 8888
+  DB_DEFAULT_NUMBER: 0
+
+rabbitmq:
+  HOST: hostname
+  PORT: 88888
+  LOGIN: guest
+  PASSWORD: guest
+
+  AMQP_DSN: "amqp://guest:guest@hostname"
+  EXCHANGES:
+    message_deleter:
+      name: exchange_name
+      type: direct
+  QUEUES:
+    message_deleter:
+      name: queue_name
